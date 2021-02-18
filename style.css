@@ -1,0 +1,176 @@
+html {
+    display: block;
+}
+body, button, input, label, select, td, textarea {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+body {
+    color: #1c1e21;
+    direction: ltr;
+    line-height: 1.34;
+    margin: 0;
+    padding: 0;
+    unicode-bidi: embed;
+    background: #f0f2f5;
+}
+/*----- ----- ----- ----- ----- -----
+    logo facebok
+----- ----- ----- ----- ----- -----*/
+.fb_content{
+    padding: 4% 10%;
+}
+.content{
+    width: 100%;
+}
+.logo_facebook{
+    width: 100%;
+    text-align: center;
+}
+.logo{
+    width: 240px;
+}
+
+/*----- ----- ----- ----- ----- -----
+    alert
+----- ----- ----- ----- ----- -----*/
+.alert{
+    height: 38px;
+    display: flex;
+    margin: auto;
+    width: 612px;
+    border-radius: 3px;
+    margin-bottom: 16px;
+}
+.info{
+    background-color: #3578e5;
+    width: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px 0 0 3px;
+    padding: 4px;
+}
+.info-img{
+    width: 20px;
+    height: 20px;
+}
+.text{
+    border: 1px solid #3578e5;
+    border-radius: 0 3px 3px 0;
+    background: #ffffff;
+    width: 100%;
+    padding: 9px 10px;
+    font-size: 14px;
+}
+
+/*----- ----- ----- ----- ----- -----
+    card
+----- ----- ----- ----- ----- -----*/
+.card{
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    margin: auto;
+    padding: 0 0 14px 0;
+    width: 396px;
+    background-color: #ffffff;
+    text-align: center;
+    border: 1px solid #dddfe2;
+    display: block;
+}
+.sec_1{
+    height: 62;
+    padding: 24px 0px 16px 0;
+    font-size: 18px;
+    line-height: 22px;
+}
+.sec_2{
+    margin: 4px 16px 6px 16px;
+    padding: 10px;
+    background-color: #fff9d7;
+    border: 1px solid #e2c822;
+}
+
+.form__input{
+    margin-bottom: 6px;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 84%;
+    background: #FFFFFF url(/rsrc.php/v3/yO/r/YQNfPR9MJfx.png) repeat-x;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+}
+
+.btn_blue{
+    margin-bottom: 16px;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 92%;
+    color: #ffffff;
+}
+
+.btn_green{
+    margin-bottom: 16px;
+    background-color: rgb(66, 183, 42);
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 75%;
+    color: #ffffff;
+}
+
+.pass{
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+@media (max-width: 768px){
+    .alert{
+        width: 396px;
+    }
+}
+@media (max-width: 495px){
+    .alert{
+        width: 300px;
+    }
+    .card{
+        width: 300px;
+    }
+    .form__input{
+        width: 81%;
+    }
+    .sec_2{
+        margin: 4px 12px 6px 12px;
+    }
+}
+
+@media (max-width: 370px){
+    .fb_content{
+        padding: 2% 5%;
+    }
+    .alert{
+        width: 270px;
+        height: 50px;
+    }
+    .card{
+        border: 1px solid green;
+        width: 270px;
+    }
+    .form__input{
+        width: 81%;
+    }
+    .sec_2{
+        margin: 4px 12px 6px 12px;
+    }
+    .btn_green{
+        font-size: 14px;
+    }
+}
